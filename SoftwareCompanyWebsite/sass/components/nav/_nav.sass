@@ -1,0 +1,41 @@
+nav
+  left: 0
+  right: 0
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 10px 25px
+  background: white
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1)
+  position: absolute
+
+  a.brand-logo
+    display: flex
+    align-items: center
+    gap: 3px
+    .logo
+      &::after
+        content: url('../img/logo.svg')
+
+    h1
+      font-family: 'Inspiration'
+      font-weight: normal
+
+  ul
+    width: 645px
+    padding: 10px 0
+    list-style: none
+    display: flex
+    justify-content: space-between
+    font-family: 'Inter'
+    font-size: 16px
+
+  button
+    padding: 14px 25px
+    font-family: 'Inter'
+    font-weight: 500
+    color: #FAFAFA
+    border-radius: 5px
+    border: 0
+    outline: 0
+    background: linear-gradient(210deg, #6675F7, #57007B)
