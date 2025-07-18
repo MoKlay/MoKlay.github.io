@@ -1,0 +1,16 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.tsx";
+import Layout from "./layouts/Layout.tsx";
+import './setting/color.css'
+import './setting/fonts.css'
+import './setting/body.css'
+
+
+createRoot(document.getElementById("root")!).render(
+  <StrictMode>
+    <Layout>
+      <App />
+    </Layout>
+  </StrictMode>
+);

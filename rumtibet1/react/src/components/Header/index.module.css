@@ -1,0 +1,23 @@
+header {
+  padding: 16px 0;
+  color: #FDFDFD;
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: flex;
+  gap: 212px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
+  a {
+    color: #FDFDFD;
+  }
+
+  .logo {
+    height: max-content;
+    fill: #fff;
+  }
+}
+
+  

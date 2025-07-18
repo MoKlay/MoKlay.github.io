@@ -1,0 +1,33 @@
+
+button{
+  color: #FDFDFD;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: .3s ease-in-out;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.2%;
+
+  &.big{
+    padding: 16px 36px;
+  }
+  
+  &:hover {
+    border: 1px solid var(--primary-color);
+    background-color: #FDFDFD;
+    color: var(--primary-color);
+  }
+
+  &.reverse{
+    background-color: #FDFDFD;
+    color: var(--primary-color);
+    &:hover {
+      background-color: var(--primary-color);
+      color: #FDFDFD;
+    }
+  }
+}
+  

@@ -1,0 +1,13 @@
+nav {
+  align-items: center;
+  display: flex;
+  width: 831px;
+  justify-content: space-between;
+
+  ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 24px;
+  }
+}

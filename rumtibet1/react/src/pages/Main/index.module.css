@@ -1,0 +1,21 @@
+main {
+  width: 100vw;
+  height: 100vh;
+ 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  scroll-snap-align: center;
+
+  h1{
+    font-family: 'nextart';
+    font-weight: 200;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 2%;
+    color: #FDFDFD;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+}
