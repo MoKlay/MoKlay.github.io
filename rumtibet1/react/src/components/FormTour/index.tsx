@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type JSX } from "react";
+import { useEffect, useRef, useState } from "react";
 import Option from "../Input/Option";
 import style from "./index.module.css";
 import Button from "../Button";
