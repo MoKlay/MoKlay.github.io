@@ -1,10 +1,9 @@
-import Calendar from "../../components/Input/Calendar";
 import FormTour from "../../components/FormTour";
-import "./index.module.css";
+import style from "./index.module.css";
 export default function Main() {
   return (
-    <main>
-      <div className="container">
+    <main id="main">
+      <div className={`container ${style["container"]}`}>
         <h1>Насладись прогулкой в горах с командой единомышленников</h1>
         <FormTour />
       </div>

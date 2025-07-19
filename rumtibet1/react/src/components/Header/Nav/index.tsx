@@ -5,16 +5,16 @@ export default function Nav() {
     <nav>
         <ul>
           <li>
-            <a href="#">Главная</a>
+            <a href="#main">Главная</a>
           </li>
           <li>
             <a href="#about">Про гида</a>
           </li>
           <li>
-            <a href="#">Программа тура</a>
+            <a href="#program">Программа тура</a>
           </li>
           <li>
-            <a href="#">Стоимость</a>
+            <a href="#cost">Стоимость</a>
           </li>
           <li>
             <a href="#">Блог</a>

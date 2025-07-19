@@ -8,8 +8,8 @@ interface PropsButton extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export default function Button({children, className, isBig, isReverse, ...props}: PropsButton) {
   return (
-    <div>
-      <button className={`${isBig ? style.big : ''} ${isReverse ? style.reverse : ''} ${className}`} {...props}>{children}</button>
+    <div className="con-bat">
+      <button className={`${isBig ? style.big : ''} ${isReverse ? style.reverse : ''} ${className ? className : ''}`} {...props}>{children}</button>
     </div>
   )
 }
