@@ -1,13 +1,292 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иван Петров | Frontend-разработчик</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a href="rumtibet">RumTibet</a>
-  <a href="SoftwareCompanyWebsite">Software Company Website</a>
-  <a href="Wishbone">Wishbone</a>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Чингис<span>Цыренов</span></a>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Резюме</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#" class="btn">Скачать резюме (PDF)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Привет, я <span class="highlight">Чингис Цыренов</span></h1>
+                    <h2>Frontend-разработчик</h2>
+                    <p>Создаю современные, адаптивные и быстрые веб-приложения с использованием React, Vue.js и современных инструментов разработки. Умею превращать дизайн в рабочий продукт.</p>
+                    <div class="hero-btns">
+                        <a href="#portfolio" class="btn">Смотреть работы</a>
+                        <a href="#contact" class="btn btn-outline">Связаться со мной</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/5413454630911865584.jpg" alt="Иван Петров">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Resume Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Мое резюме</h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <h3><i class="fas fa-user"></i> Обо мне</h3>
+                    <p>Frontend-разработчик с 3-летним опытом. Специализируюсь на создании пользовательских интерфейсов с использованием современных технологий. Люблю чистый код, оптимизацию производительности и доступность.</p>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-briefcase"></i> Опыт работы</h3>
+                    <div class="exp-item">
+                        <h4>Frontend-разработчик</h4>
+                        <p><strong>TechSolutions Inc.</strong> | Янв 2021 - настоящее время</p>
+                        <p>Разработка SPA-приложений на React, оптимизация производительности, работа в команде по методологии Agile.</p>
+                    </div>
+                    <div class="exp-item">
+                        <h4>Junior Web Developer</h4>
+                        <p><strong>Digital Agency "ВебПро"</strong> | Июн 2019 - Дек 2020</p>
+                        <p>Верстка адаптивных сайтов, разработка компонентов на JavaScript, поддержка существующих проектов.</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-graduation-cap"></i> Образование</h3>
+                    <div class="edu-item">
+                        <h4>Бакалавр информатики</h4>
+                        <p><strong>НИУ "Высшая школа экономики"</strong> | 2015 - 2019</p>
+                        <p>Факультет компьютерных наук. Диплом с отличием.</p>
+                    </div>
+                    <div class="edu-item">
+                        <h4>Курс "Frontend-разработчик"</h4>
+                        <p><strong>Яндекс.Практикум</strong> | 2020</p>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <h3><i class="fas fa-address-card"></i> Контакты</h3>
+                    <div class="contact-item">
+                        <p><i class="fas fa-envelope"></i> <a href="mailto:ivan@example.com">ivan@example.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <p><i class="fas fa-phone"></i> <a href="tel:+79161234567">+7 (916) 123-45-67</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+                    </div>
+                    <div class="contact-item">
+                        <p><i class="fab fa-github"></i> <a href="https://github.com/ivanpetrov" target="_blank">github.com/ivanpetrov</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/ivanpetrov" target="_blank">linkedin.com/in/ivanpetrov</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Мои работы</h2>
+            <div class="portfolio-grid">
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Интернет-магазин">
+                    </div>
+                    <div class="project-content">
+                        <h3>Интернет-магазин электроники</h3>
+                        <p>Полнофункциональный онлайн-магазин с корзиной, фильтрами и оформлением заказа.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://demo-store.example.com" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ivanpetrov/electronics-store" target="_blank">
+                                <i class="fab fa-github"></i> Код на GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Проект 2 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Дашборд аналитики">
+                    </div>
+                    <div class="project-content">
+                        <h3>Дашборд бизнес-аналитики</h3>
+                        <p>Интерактивная панель управления с графиками и отчетностью в реальном времени.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Sass</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dashboard.example.com" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ivanpetrov/analytics-dashboard" target="_blank">
+                                <i class="fab fa-github"></i> Код на GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Проект 3 -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Приложение для задач">
+                    </div>
+                    <div class="project-content">
+                        <h3>Приложение для управления задачами</h3>
+                        <p>Трекер задач с drag-and-drop, тегами, сроками и уведомлениями.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Material-UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tasks.example.com" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/ivanpetrov/task-manager" target="_blank">
+                                <i class="fab fa-github"></i> Код на GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Связаться со мной</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Готовы обсудить проект или сотрудничество? Свяжитесь со мной любым удобным способом!</p>
+                    <p><i class="fas fa-envelope"></i> ivan@example.com</p>
+                    <p><i class="fas fa-phone"></i> +7 (916) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/ivanpetrov" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/ivanpetrov" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://t.me/ivanpetrov" target="_blank"><i class="fab fa-telegram"></i></a>
+                        <a href="https://codepen.io/ivanpetrov" target="_blank"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваше сообщение" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Иван Петров. Все права защищены.</p>
+            <p>Сайт-портфолио frontend-разработчика</p>
+        </div>
+    </footer>
+
+    <script>
+        // Мобильное меню
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.querySelector('i').classList.toggle('fa-bars');
+            menuToggle.querySelector('i').classList.toggle('fa-times');
+        });
+        
+        // Закрытие меню при клике на ссылку
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.querySelector('i').classList.add('fa-bars');
+                menuToggle.querySelector('i').classList.remove('fa-times');
+            });
+        });
+        
+        // Простая форма
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо за ваше сообщение! Я свяжусь с вами в ближайшее время.');
+            this.reset();
+        });
+        
+        // Плавный скролл для всех якорных ссылок
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
